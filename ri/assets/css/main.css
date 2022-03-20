@@ -503,7 +503,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "Lato";
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -664,7 +664,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #075b89;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -721,7 +721,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #a8e0ff;
 		}
 
 		input[type="button"]:active,
@@ -729,7 +729,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: #075b89;
 		}
 
 		input[type="button"].style2,
@@ -2295,6 +2295,7 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+		font-family: Lato;
 	}
 
 		#contact .box {
@@ -2376,14 +2377,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	/* id aboutLeft */
+	/* id about page left align */
 			#aboutLeft {
 				margin-top: 0;
 				margin-bottom: 0;
 				text-align: left;
 			}
 
-	/* id aboutRight */
+	/* id about page right align*/
 			#aboutRight {
 				margin-top: 0;
 				margin-bottom: 0;
@@ -2395,3 +2396,10 @@ input, select, textarea {
 			font-size: 1em;
 			white-space: nowrap;
 		}
+
+		/* id aboutRight */
+				#aboutRight {
+					margin-top: 0;
+					margin-bottom: 0;
+					text-align: right;
+				}
