@@ -634,7 +634,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: rgba(255, 255, 255, 0.75);
 		color: #39454b;
 		padding: 2em;
 	}
@@ -677,7 +677,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out;
 		background-color: #075b89;
 		border: 0;
-		border-radius: 0.5em;
+		border-radius: 0.3em;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
@@ -713,7 +713,7 @@ input, select, textarea {
 			button.down.anchored {
 				bottom: 0;
 				border-bottom: 0;
-				border-radius: 0.5em 0.5em 0 0;
+				border-radius: 0.3em 0.3em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
 			}
@@ -878,7 +878,7 @@ input, select, textarea {
 		background: none;
 		border: solid 2px #e5e6e7;
 		color: inherit;
-		border-radius: 0.5em;
+		border-radius: 0.3em;
 		outline: none;
 	}
 
@@ -2296,7 +2296,7 @@ input, select, textarea {
 	/* laura */
 
 		#laura {
-			background: url("images/overlay.png"), url("../../images/fulls/principal-designer-laura.jpeg");
+			background: url("images/overlay.png"), url("../../images/fulls/bay.jpeg");
 			background-size: 256px 256px, cover;
 			background-attachment: fixed, fixed;
 			background-position: top left, center center;
@@ -2373,9 +2373,12 @@ input, select, textarea {
 
 /* id planSess */
 		#planSess {
+			background: url("images/overlay.png"), url("../../images/fulls/elephant.jpeg");
+			background-size: auto 100%, cover;
+			background-attachment: fixed, fixed;
+			background-position: top right;
 			margin-top: 0;
 			margin-bottom: 0;
-			line-height: /* adjust to tweak wierd fonts */;
 			padding: 10px;
 			text-align: center;
 			text-transform: uppercase;
@@ -2384,7 +2387,7 @@ input, select, textarea {
 
 /* class large font-size for headlines in planSess*/
 	.largeFontSize2em{
-		font-size: 2em;
+		font-size: 1.8em;
 		white-space: nowrap;
 		text-align: center;
 	}

@@ -382,7 +382,7 @@ input, select, textarea {
 		border-radius: 0;
 		box-shadow: inset 0 0 0 2px #36383c;
 		color: #ffffff !important;
-		cursor: pointer;
+		/* cursor: pointer; */
 		display: inline-block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -675,7 +675,7 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: #a0a0a1;
-			cursor: pointer;
+			/* cursor: pointer; */
 			display: inline-block;
 			font-size: 1em;
 			font-weight: 300;
@@ -1114,7 +1114,7 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 3em;
-			cursor: pointer;
+			/* cursor: pointer; */
 			height: 5em;
 			opacity: 0.25;
 			position: absolute;
@@ -1242,7 +1242,7 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 5em;
-			cursor: pointer;
+			/* cursor: pointer; */
 			height: 8em;
 			margin-top: -4em;
 			opacity: 0;
@@ -1914,4 +1914,24 @@ input, select, textarea {
 
 		#footer .copyright a {
 			color: inherit;
+		}
+
+/* Elements Sandy's added */
+		.cursor-dot{
+		    pointer-events: none;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    border-radius: 50%;
+		    opacity: 0;
+		    transform: translate(-50%, -50%);
+		    transition: opacity 0.3s ease-in-out,
+		                transform 0.3s ease-in-out;
+		}
+
+		.cursor-dot {
+		    $size: 8px;
+		    width: $size;
+		    height: $size;
+		    background-color: inherit;
 		}
