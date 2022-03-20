@@ -17,7 +17,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -27,6 +27,17 @@ section, summary, time, mark, audio, video {
 	color: #075b89;
 	letter-spacing: 5px;
 	vertical-align: baseline;}
+
+footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0.90em;
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	letter-spacing: 1px;
+	vertical-align: baseline;}
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -666,7 +677,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out;
 		background-color: #075b89;
 		border: 0;
-		border-radius: 3.5em;
+		border-radius: 0.5em;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
@@ -702,7 +713,7 @@ input, select, textarea {
 			button.down.anchored {
 				bottom: 0;
 				border-bottom: 0;
-				border-radius: 3em 3em 0 0;
+				border-radius: 0.5em 0.5em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
 			}
@@ -2270,6 +2281,7 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		text-align: right;
 	}
 
 	/* about */
@@ -2403,3 +2415,12 @@ input, select, textarea {
 					margin-bottom: 0;
 					text-align: right;
 				}
+
+		/* google maps */
+		/* Set the size of the div element that contains the map */
+		#map {
+		  height: 400px;
+		  /* The height is 400 pixels */
+		  width: 100%;
+		  /* The width is the width of the web page */
+		}

@@ -1,5 +1,7 @@
-@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900,300italic,900italic");
+@import url("https://fonts.googleapis.com/css?family=Nunito Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("fontawesome-all.min.css");
 
 /*
 	Polymorph by Pixelarity
@@ -16,7 +18,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+hgroup, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +28,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+hgroup, section {
 	display: block;}
 
 body {
@@ -117,7 +119,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: #404040;
+		color: #075B89;
 	}
 
 	body, input, select, textarea {
@@ -302,7 +304,7 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #404040;
+		color: #075B89;
 	}
 
 	a {
@@ -310,11 +312,11 @@ input, select, textarea {
 	}
 
 	strong, b {
-		color: #404040;
+		color: #075B89;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #404040 !important;
+		color: #075B89 !important;
 	}
 
 	blockquote {
@@ -1932,7 +1934,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px #dbdbdb;
-		color: #404040 !important;
+		color: #075B89 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1958,7 +1960,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #404040;
+			background-color: #075B89;
 			color: #ffffff !important;
 		}
 
@@ -2197,7 +2199,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #404040;
+		color: #075B89;
 	}
 
 	input[type="text"],
@@ -2223,13 +2225,13 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #404040;
+			color: #075B89;
 			background: #ffffff;
 		}
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #404040;
+		color: #075B89;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2240,9 +2242,9 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #404040;
+		background-color: #075B89;
 		color: #ffffff;
-		border-color: #404040;
+		border-color: #075B89;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2574,7 +2576,7 @@ input, select, textarea {
 				height: 2.125em;
 				line-height: 2.125em;
 				text-align: center;
-				background-color: #404040;
+				background-color: #075B89;
 				color: #ffffff !important;
 			}
 
@@ -2819,7 +2821,7 @@ input, select, textarea {
 		}
 
 		ul.pagination li a {
-			color: #404040 !important;
+			color: #075B89 !important;
 		}
 
 			ul.pagination li a:hover {
@@ -2832,9 +2834,9 @@ input, select, textarea {
 
 			ul.pagination li a.active {
 				color: #ffffff !important;
-				box-shadow: 0 0 0 1px #404040;
-				background-color: #404040;
-				border-left-color: #404040;
+				box-shadow: 0 0 0 1px #075B89;
+				background-color: #075B89;
+				border-left-color: #075B89;
 				z-index: 1;
 			}
 
@@ -3013,7 +3015,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #404040;
+		color: #075B89;
 	}
 
 	table thead {
@@ -3138,314 +3140,6 @@ input, select, textarea {
 	.posts > article {
 		border-color: #dbdbdb;
 	}
-
-/* Header */
-
-	body {
-		padding-top: 3.75em;
-	}
-
-	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		z-index: 10000;
-		background-color: #ffffff;
-		height: 3.75em;
-		line-height: 3.75em;
-		box-shadow: inset 0 -1px 0 0 #dbdbdb;
-		overflow: hidden;
-	}
-
-		#header .logo {
-			background-color: #53bed5;
-			color: #ffffff;
-			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-			display: block;
-			white-space: nowrap;
-		}
-
-			#header .logo input, #header .logo select, #header .logo textarea {
-				color: #ffffff;
-			}
-
-			#header .logo a {
-				color: #ffffff;
-			}
-
-			#header .logo strong, #header .logo b {
-				color: #ffffff;
-			}
-
-			#header .logo h1, #header .logo h2, #header .logo h3, #header .logo h4, #header .logo h5, #header .logo h6 {
-				color: #ffffff !important;
-			}
-
-			#header .logo blockquote {
-				border-left-color: rgba(255, 255, 255, 0.25);
-			}
-
-			#header .logo code {
-				background: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-			#header .logo hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
-			}
-
-			#header .logo:hover {
-				background-color: #67c6da;
-			}
-
-			#header .logo:active {
-				background-color: #3fb6d0;
-			}
-
-			#header .logo > :last-child {
-				margin-bottom: 0;
-			}
-
-			#header .logo .title {
-				display: block;
-				text-transform: uppercase;
-				font-size: 1em;
-				border-bottom: 0;
-				color: #ffffff !important;
-				padding: 0 3em 0 1.5em;
-			}
-
-		#header nav {
-			-moz-flex: 1;
-			-webkit-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
-			padding: 0;
-			cursor: default;
-		}
-
-			#header nav > ul {
-				display: -moz-flex;
-				display: -webkit-flex;
-				display: -ms-flex;
-				display: flex;
-				-moz-justify-content: -moz-flex-end;
-				-webkit-justify-content: -webkit-flex-end;
-				-ms-justify-content: -ms-flex-end;
-				justify-content: flex-end;
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-
-				#header nav > ul > li {
-					border-left: solid 1px #f4f4f4;
-					display: block;
-					margin: 0;
-					padding: 0;
-					position: relative;
-				}
-
-					#header nav > ul > li > ul {
-						display: none;
-					}
-
-					#header nav > ul > li > a {
-						border-bottom: 0;
-						color: #404040;
-						display: block;
-						font-size: 0.8em;
-						font-weight: 900;
-						letter-spacing: 0.075em;
-						padding: 0 2.0625em;
-						text-decoration: none;
-						text-transform: uppercase;
-					}
-
-						#header nav > ul > li > a.dropdown {
-							text-decoration: none;
-						}
-
-							#header nav > ul > li > a.dropdown:before {
-								-moz-osx-font-smoothing: grayscale;
-								-webkit-font-smoothing: antialiased;
-								display: inline-block;
-								font-style: normal;
-								font-variant: normal;
-								text-rendering: auto;
-								line-height: 1;
-								text-transform: none !important;
-								font-family: 'Font Awesome 5 Free';
-								font-weight: 900;
-							}
-
-							#header nav > ul > li > a.dropdown:before {
-								content: '\f107';
-								color: #aaaaaa;
-								line-height: inherit;
-								margin-right: 0.5em;
-							}
-
-					#header nav > ul > li.active > a {
-						color: #53bed5;
-					}
-
-						#header nav > ul > li.active > a:before {
-							color: #53bed5;
-						}
-
-					#header nav > ul > li:first-child {
-						border-left: 0;
-					}
-
-		#header .navPanelToggle {
-			display: none;
-		}
-
-	@media screen and (max-width: 1280px) {
-
-		#header nav {
-			display: none;
-		}
-
-		#header .navPanelToggle {
-			text-decoration: none;
-			position: absolute;
-			display: block;
-			top: 0;
-			right: 0;
-			height: 100%;
-			font-size: 0.8em;
-			font-weight: 900;
-			letter-spacing: 0.075em;
-			text-decoration: none;
-			text-transform: uppercase;
-			color: #404040;
-			padding: 0 2.0625em;
-			border: 0;
-		}
-
-			#header .navPanelToggle:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				display: inline-block;
-				font-style: normal;
-				font-variant: normal;
-				text-rendering: auto;
-				line-height: 1;
-				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
-			}
-
-			#header .navPanelToggle:before {
-				content: '\f0c9';
-				margin-right: 0.75em;
-			}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		body {
-			padding-top: 2.75em;
-		}
-
-		#header {
-			height: 2.75em;
-			line-height: 2.75em;
-		}
-
-			#header .logo .title {
-				padding: 0 1.25em;
-			}
-
-			#header .navPanelToggle {
-				padding: 0 1.5625em;
-			}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		#header .logo .title .extra {
-			display: none;
-		}
-
-	}
-
-	.dropotron {
-		background: #ffffff;
-		box-shadow: 0 0.125em 0.75em 0.125em rgba(0, 0, 0, 0.075);
-		list-style: none;
-		margin-top: calc(-1em - 1px);
-		margin-left: -1px;
-		min-width: 13em;
-		padding: 1em 0;
-		border: solid 1px #dbdbdb;
-	}
-
-		.dropotron li {
-			padding: 0;
-		}
-
-			.dropotron li a {
-				-moz-transition: none !important;
-				-webkit-transition: none !important;
-				-ms-transition: none !important;
-				transition: none !important;
-				border: 0;
-				box-shadow: inset 0 1px 0 0 #f4f4f4;
-				color: inherit;
-				display: block;
-				line-height: 2.5em;
-				padding: 0 1.25em;
-			}
-
-			.dropotron li:first-child > a {
-				box-shadow: none;
-			}
-
-			.dropotron li.active > a, .dropotron li:hover > a {
-				color: #53bed5 !important;
-			}
-
-		.dropotron.level-0 {
-			font-size: 0.9em;
-			margin-top: 1em;
-			margin-left: 0;
-		}
-
-			.dropotron.level-0:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-o-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
-				background: #fff;
-				content: '';
-				display: block;
-				height: 0.75em;
-				position: absolute;
-				left: 50%;
-				top: -0.375em;
-				width: 0.75em;
-				margin-left: -0.375em;
-				box-shadow: inset 1px 1px 0 0 #dbdbdb;
-				box-shadow: -1px -1px 2px 0 #dbdbdb;
-			}
 
 /* Banner */
 
@@ -3929,7 +3623,7 @@ input, select, textarea {
 		width: 100%;
 		height: 100%;
 		display: block;
-		background: #404040;
+		background: #075B89;
 		z-index: 10001;
 		opacity: 0;
 		visibility: hidden;
@@ -3946,7 +3640,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
-		color: #404040;
+		color: #075B89;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
