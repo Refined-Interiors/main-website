@@ -2427,3 +2427,10 @@ input, select, textarea {
 		  width: 100%;
 		  /* The width is the width of the web page */
 		}
+
+	/* class main menu*/
+	.mainMenu{
+		font-size: 0.8em;
+		white-space: nowrap;
+		letter-spacing: 5px;
+	}
